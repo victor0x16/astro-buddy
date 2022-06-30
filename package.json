@@ -1,0 +1,35 @@
+{
+  "name": "astro-buddy",
+  "description": "Show integrations' settings for your app",
+  "version": "1.0.0",
+  "type": "module",
+  "types": "dist/index.d.ts",
+  "author": "Victor Souza",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victor0x16/astro-buddy.git"
+  },
+  "keywords": [
+    "astro",
+    "settings",
+    "config"
+  ],
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/victor0x16/astro-buddy/issues"
+  },
+  "homepage": "https://github.com/victor0x16/astro-buddy#readme",
+  "devDependencies": {
+    "astro": "^1.0.0-beta.60",
+    "typescript": "^4.7.4"
+  },
+  "engines": {
+    "node": "^14.15.0 || >=16.0.0"
+  },
+  "scripts": {
+    "build": "tsc"
+  }
+}
